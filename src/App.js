@@ -3,6 +3,7 @@ import "./App.css";
 import Container from "./Componenets/Container";
 import CounterProvider from "./Componenets/CounterProvider";
 import Authentication from "./Componenets/Authentication";
+import Fetchuser from "./Componenets/Fetchuser";
 
 export const ThemeContext = createContext("light");// light default value
 
@@ -19,6 +20,7 @@ function App() {
         <h1>Usecontext</h1>
         <button onClick={toggletheme}>toggle click</button>
         <Container />
+        <Fetchuser/>
         <CounterProvider/>
         <Authentication/>
       </ThemeContext.Provider>

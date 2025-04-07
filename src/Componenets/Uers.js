@@ -11,7 +11,7 @@ function Uers() {
   return (
     <div>
       <h6>Mini-project 1:toggle</h6>
-        <h1 style={style}>Uers</h1>
+        <h1 style={style}>output:Uers Toggle</h1>
 
     </div>
   )
